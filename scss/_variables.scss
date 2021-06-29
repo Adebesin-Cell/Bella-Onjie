@@ -1,0 +1,39 @@
+:root {
+  --unit: 1rem;
+  --fixed: 10px;
+
+  --size-xs: 1.2rem;
+  --size-s: 1.4rem;
+  --size-m: 1.6rem;
+  --size-l: 1.8rem;
+  --size-xl: 2.4rem;
+  --size-2xl: 3.2rem;
+  --size-xxl: 3.6rem;
+
+  --family: "Poppins", sans-serif;
+  --family-2: "Montserrat", sans-serif;
+
+  --f-space-xs: var(--fixed);
+  --f-space-s: calc(var(--fixed) * 2);
+  --f-space-m: calc(var(--fixed) * 3);
+  --f-space-l: calc(var(--fixed) * 4);
+  --f-space-xl: calc(var(--fixed) * 5);
+  --f-space-2xl: calc(var(--fixed) * 6);
+
+  --u-space-xs: var(--unit);
+  --u-space-s: calc(var(--unit) * 2);
+  --u-space-m: calc(var(--unit) * 3);
+  --u-space-l: calc(var(--unit) * 4);
+  --u-space-xl: calc(var(--unit) * 5);
+  --u-space-2xl: calc(var(--unit) * 6);
+
+  --orange: #fa4a0c;
+  --white: #ffffff;
+  --text-black: #252b42;
+  --heading-white: #f6f6f6;
+  --text-secondary: #737373;
+}
+
+.py-1 {
+  padding-bottom: 10px;
+}

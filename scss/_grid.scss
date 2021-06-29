@@ -1,0 +1,29 @@
+.container {
+  padding: 0 calc(var(--f-space-xs) + 5px);
+  max-width: 85%;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 768px) {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.container-f {
+  padding: 0 calc(var(--f-space-xs) + 5px);
+  width: 100%;
+  position: relative;
+}
+
+.desktop {
+  @include respond(phone) {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+  @include respond(phone) {
+    display: block;
+  }
+}

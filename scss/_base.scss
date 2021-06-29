@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  @include respond(tablet-landscape) {
+    font-size: 56.25%;
+  }
+  @include respond(tablet-portrait) {
+    font-size: 50%;
+  }
+  @include respond(phone) {
+    font-size: 62.5%;
+  }
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-size: var(--size-m);
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+::selection {
+  background-color: var(--orange);
+  color: var(--white);
+}
