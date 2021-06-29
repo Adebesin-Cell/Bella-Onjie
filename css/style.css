@@ -801,7 +801,7 @@ body {
   padding-top: 20px;
   padding-bottom: 60px;
   font-family: var(--family-2);
-  font-size: var(--size-l);
+  font-size: var(--size-xl);
   font-style: normal;
   font-weight: 500;
   line-height: 38px;
@@ -836,7 +836,7 @@ body {
   padding: 15px 30px;
   text-decoration: none;
   font-family: var(--family-2);
-  font-size: var(--size-s);
+  font-size: var(--size-m);
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
